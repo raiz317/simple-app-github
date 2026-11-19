@@ -1,0 +1,5 @@
+services:
+  webserver:
+    image: ghcr.io/raiz317/nginx-afid
+    ports: 
+      - "8080:80"
