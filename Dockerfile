@@ -1,2 +1,2 @@
-FROM registry.adinusa.id/btacademy.id/nginx:latest
+FROM registry.adinusa.id/btacademy/nginx:latest
 COPY index.html /usr/share/nginx/html/
