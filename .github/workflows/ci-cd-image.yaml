@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        run: actions/checkout@v4
+        uses: actions/checkout@v4
       - name: Login to Github Registry
         run: echo ${{secrets.TOKEN_GITHUB}} | docker login ghcr.io -u raiz317 --password-stdin
       - name: stop and remove existing container
